@@ -6,10 +6,10 @@ process = pyMeow.open_process("torchlight_infinite.exe")
 
 global Read_pc
 
-pc = 0x242992BD193
-py = 0x242992BD193
-px = 0x242992BD19F
-pz = 0x242992BD1AB
+pc = 0x242992BD193 # string of all the combined coordinates yxz 44 long
+py = 0x242992BD193 # y 11 long
+px = 0x242992BD19F # x 11 long
+pz = 0x242992BD1AB # z 11 long
 
 customtkinter.set_appearance_mode("dark")  # Modes: system (default), light, dark
 customtkinter.set_default_color_theme("dark-blue")  # Themes: blue (default), dark-blue, green
